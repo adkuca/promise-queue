@@ -1,0 +1,12 @@
+{
+  // "extends": "@tsconfig/node-lts-strictest-esm/tsconfig.json",
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "types": ["node"]
+  }
+}
+// typescript 5.0 "compilerOptions": { extends: [strictest, base.json]
+// for web typescript 5.0 "compilerOptions": { extends: [base.json]

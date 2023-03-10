@@ -1,0 +1,16 @@
+{
+  "watch": ["**/*"],
+  "ext": "ts,tsx,cts,mts,js,jsx,cjs,mjs,json,jsonc",
+  "ignore": [
+    "**/node_modules/**",
+    ".git",
+    "yarn.lock",
+    "build/",
+    "dist/",
+    ".ts-node/"
+  ],
+  "exec": "ts-node --esm --project tsconfig.util.json src/index.ts",
+  "verbose": true,
+  "restartable": "rs",
+  "colours": true
+}

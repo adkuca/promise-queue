@@ -1,0 +1,18 @@
+{
+  "files": [],
+  "include": [],
+  "references": [
+    // order matters for linting of the codebase,
+    // if files are included in multiple references,
+    // the linter will use rules of the last config that includes those files
+    {
+      "path": "./tsconfig.eslint.json"
+    },
+    {
+      "path": "./tsconfig.tests.json"
+    },
+    {
+      "path": "./tsconfig.util.json"
+    }
+  ]
+}

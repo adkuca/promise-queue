@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  // include files that aren't listed already in other projects
+  // you can also include the ones that are already in other projects, but there is no reason to
+  // reference order matters in main tsconfig for the linting of codebase
+  "files": [],
+  "include": [],
+  "compilerOptions": {
+    "composite": true,
+    // ensure that nobody can accidentally use this config for a build
+    "noEmit": true,
+  }
+}

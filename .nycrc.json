@@ -1,0 +1,8 @@
+{
+  "all": true,
+  "include": ["src/**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts}"],
+  "exclude": ["**/node_modules/**", "**/*.test.js"],
+  "extension": [".ts", ".cts", ".mts", ".tsx", ".js", ".cjs", ".mjs", ".jsx"],
+  "reporter": ["text", "text-summary", "html"],
+  "report-dir": "./coverage"
+}

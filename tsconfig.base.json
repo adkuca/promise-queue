@@ -1,0 +1,57 @@
+{
+  // "files": [],
+  // "include": [],
+  "ts-node": {
+    // It is faster to skip typechecking.
+    // Remove if you want ts-node to do typechecking.
+    // "transpileOnly": true,
+    "esm": true, // works while using ts-node cli only
+    "files": true,
+
+    "compilerOptions": {
+      // compilerOptions specified here will override those declared below,
+      // but *only* in ts-node.  Useful if you want ts-node and tsc to use
+      // different options with a single tsconfig.json.
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true // important for esm
+    }
+  },
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "target": "ESNext",
+    "sourceMap": true,
+    "allowJs": true,
+    "strict": true,
+    "rootDir": "./",
+    "outDir": "dist",
+
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "alwaysStrict": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "importsNotUsedAsValues": "error",
+    "checkJs": true,
+    "useUnknownInCatchVariables": true
+  }
+}

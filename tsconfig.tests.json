@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.util.json",
+  "exclude": [],
+  "compilerOptions": {
+    "composite": true,
+    "types": [
+      "node",
+      "mocha",
+      "chai",
+      "sinon",
+      // "sinon-chai", // for should and expect
+      "deep-equal-in-any-order",
+      "chai-as-promised"
+    ],
+    "lib": ["ESNext"],
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  }
+}

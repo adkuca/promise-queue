@@ -1,0 +1,6 @@
+.ts-node/
+dist/
+build/
+coverage/
+.eslintrc.cjs
+.mocharc.cjs
